@@ -34,7 +34,7 @@ The site was created using HTML, JavaScript, MVC architecture, and SCSS.
 
 ## GitHub
 
-[GitHub Repository](PASTE-YOUR-GITHUB-LINK-HERE)
+https://github.com/onxstigb/homework3
 
 ## Web 4
 
