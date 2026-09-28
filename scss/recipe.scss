@@ -1,0 +1,42 @@
+.page-header {
+    text-align: center;
+    padding: 100px 20px 70px;
+    background-color: #eee7d9;
+
+    h2 {
+        font-family: Georgia, serif;
+        font-size: 60px;
+        color: #384b36;
+        margin: 10px 0;
+    }
+
+    p:last-child {
+        max-width: 600px;
+        margin: auto;
+        color: #5e584f;
+        font-size: 17px;
+    }
+}
+
+.recipe-list {
+    padding: 80px 7%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+    .recipe-card {
+        border: 1px solid #e2ddd4;
+
+        img {
+            height: 300px;
+        }
+
+        .category {
+            color: #a65d38;
+            font-size: 12px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+    }
+}

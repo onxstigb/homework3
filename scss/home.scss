@@ -1,0 +1,163 @@
+header {
+    background-color: #fffaf2;
+    padding: 25px 7%;
+    border-bottom: 1px solid #ddd5c8;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+        h1 {
+            font-family: Georgia, serif;
+            font-size: 28px;
+            color: #384b36;
+        }
+    }
+
+    nav {
+        display: flex;
+        gap: 30px;
+
+        a {
+            text-decoration: none;
+            color: #29251f;
+            font-size: 14px;
+            font-weight: bold;
+            letter-spacing: 1px;
+
+            transition: color 0.3s ease;
+
+            &:hover {
+                color: #a65d38;
+            }
+        }
+    }
+}
+
+main {
+    min-height: 80vh;
+}
+
+.hero {
+    min-height: 600px;
+    padding: 70px 7%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+
+    background-color: #eee7d9;
+
+    .hero-text {
+        max-width: 600px;
+
+        h2 {
+            font-family: Georgia, serif;
+            font-size: clamp(45px, 6vw, 75px);
+            line-height: 1.05;
+            margin: 15px 0 25px;
+            color: #384b36;
+        }
+
+        p {
+            font-size: 18px;
+            max-width: 500px;
+            margin-bottom: 25px;
+        }
+    }
+
+    .hero-image {
+        height: 500px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+    }
+}
+
+.eyebrow {
+    color: #a65d38;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #384b36;
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: #a65d38;
+    }
+}
+
+.featured {
+    padding: 90px 7%;
+
+    .section-heading {
+        margin-bottom: 40px;
+
+        h2 {
+            font-family: Georgia, serif;
+            font-size: 45px;
+            color: #384b36;
+            margin-top: 5px;
+        }
+    }
+}
+
+
+.recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.recipe-card {
+    background-color: white;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        height: 260px;
+        object-fit: cover;
+        display: block;
+    }
+
+    .recipe-info {
+        padding: 25px;
+
+        h3 {
+            font-family: Georgia, serif;
+            font-size: 25px;
+            margin-bottom: 10px;
+            color: #384b36;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #5e584f;
+        }
+
+        a {
+            color: #a65d38;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+    }
+}

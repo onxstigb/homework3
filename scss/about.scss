@@ -1,0 +1,36 @@
+.about-page {
+    padding: 90px 7%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    align-items: center;
+
+    .about-image {
+        height: 550px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .about-text {
+        max-width: 600px;
+
+        h2 {
+            font-family: Georgia, serif;
+            font-size: 55px;
+            line-height: 1.1;
+            color: #384b36;
+            margin: 15px 0 25px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            color: #5e584f;
+            font-size: 17px;
+        }
+    }
+}
